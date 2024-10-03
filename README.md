@@ -7,6 +7,7 @@ Very simple car deleter script
 - ox_lib
 
 ## <b>Features</b>
+- Framework independent
 - 0.0ms Usage
 ![Usage](https://github.com/user-attachments/assets/161a90b4-0daa-41db-8a8b-b37411de179f)
 - Control Menu
