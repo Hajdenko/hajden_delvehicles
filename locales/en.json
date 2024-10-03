@@ -1,0 +1,20 @@
+{
+    "notification_title": "Vehicle Management",
+    "timer_started": "Vehicle cleanup will begin in %s minutes",
+    "timer_warning": "Vehicles will be cleaned up in %s minutes",
+    "timer_stopped": "Vehicle cleanup cancelled",
+    "timer_not_running": "Timer not running",
+    "menu_title": "Vehicle Management",
+    "start_timer": "Start Cleanup Timer",
+    "stop_timer": "Stop Cleanup Timer",
+    "start_description": "Begin the vehicle cleanup process",
+    "stop_description": "Cancel the current cleanup timer",
+    "input_minutes": "Minutes until cleanup",
+    "confirm_stop": "Confirm Cancellation",
+    "confirm_stop_desc": "Are you sure you want to stop the cleanup process?",
+    "no_permission": "You don't have permission to use this command",
+    "vehicles_deleted": "Cleaned up %s vehicles",
+    "debug_timer_start": "Debug: Timer started for %s minutes",
+    "debug_timer_stop": "Debug: Timer stopped",
+    "debug_vehicle_check": "Debug: Vehicle check for %s"
+}

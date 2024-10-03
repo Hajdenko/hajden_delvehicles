@@ -1,0 +1,20 @@
+{
+    "notification_title": "Správa vozidel",
+    "timer_started": "Čištění vozidel začne za %s minut",
+    "timer_warning": "Vozidla budou vyčištěna za %s minut",
+    "timer_stopped": "Čištění vozidel zrušeno",
+    "timer_not_running": "Časovač není spuštěn",
+    "menu_title": "Správa vozidel",
+    "start_timer": "Spustit časovač čištění",
+    "stop_timer": "Zastavit časovač čištění",
+    "start_description": "Zahájit proces čištění vozidel",
+    "stop_description": "Zrušit aktuální časovač čištění",
+    "input_minutes": "Minuty do čištění",
+    "confirm_stop": "Potvrdit zrušení",
+    "confirm_stop_desc": "Opravdu chcete zastavit proces čištění?",
+    "no_permission": "Nemáte oprávnění k použití tohoto příkazu",
+    "vehicles_deleted": "Vyčištěno %s vozidel",
+    "debug_timer_start": "Debug: Časovač spuštěn s %s minutami",
+    "debug_timer_stop": "Debug: Časovač zastaven",
+    "debug_vehicle_check": "Debug: Kontrola vozidla %s"
+}
