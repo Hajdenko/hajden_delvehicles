@@ -1,4 +1,4 @@
-```Please, leave a star if you like it```
+```Please, leave a ⭐star⭐ if you like it```
 
 # hajden_delvehicles
 Very simple car deleter script
