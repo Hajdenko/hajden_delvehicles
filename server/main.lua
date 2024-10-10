@@ -1,5 +1,3 @@
-ESX = exports['es_extended']:getSharedObject()
-
 ---@param source number Player who triggered the command
 ---@param args string[] Command arguments
 RegisterCommand('vh_cleanup', function(source, args)
@@ -13,7 +11,7 @@ RegisterCommand('vh_stop', function(source)
 end)
 
 lib.callback.register('hajden_delvehicles:getGroup', function(source)
-    local xPlayer = ESX.GetPlayerFromId(source)
+    local xPlayer = exports["es_extended"]:getSharedObject().GetPlayerFromId(source)
     local playerGroup = xPlayer.getGroup()
     return playerGroup
 end)
