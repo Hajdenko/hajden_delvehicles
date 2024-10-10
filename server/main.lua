@@ -10,10 +10,8 @@ RegisterCommand('vh_stop', function(source)
     TriggerClientEvent('hajden_delvehicles:forceStop', -1)
 end)
 
-lib.callback.register('hajden_delvehicles:getGroup', function(source)
-    local xPlayer = exports["es_extended"]:getSharedObject().GetPlayerFromId(source)
-    local playerGroup = xPlayer.getGroup()
-    return playerGroup
+lib.callback.register('hajden_delvehicles:getGroup', function(source)
+    return sv_config.getGroup(source)
 end)
 
 lib.addCommand(Config.Menu.Command, {
