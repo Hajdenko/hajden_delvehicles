@@ -58,11 +58,7 @@ local function DeleteAllVehicles()
             
             SetVehicleHasBeenOwnedByPlayer(vehicle, false)
             SetEntityAsMissionEntity(vehicle, false, false)
-            DeleteVehicle(vehicle)
-            
-            if DoesEntityExist(vehicle) then
-                DeleteVehicle(vehicle)
-            end
+            DeleteVehicle(vehicle)
             
             deletedCount = deletedCount + 1
             
