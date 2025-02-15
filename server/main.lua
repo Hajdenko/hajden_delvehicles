@@ -10,7 +10,7 @@ RegisterCommand('vh_stop', function(source)
     TriggerClientEvent('hajden_delvehicles:forceStop', -1)
 end)
 
-lib.callback.register('hajden_delvehicles:getGroup', function(source)
+lib.callback.register('hajden_delvehicles:getGroup', function(source)
     return sv_config.getGroup(source)
 end)
 
